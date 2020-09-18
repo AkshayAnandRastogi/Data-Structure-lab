@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int id,age,marks;
+    printf("Enter your id,age,marks\n");
+    scanf("%d%d%d",&id,&age,&marks);
+    if ((age<20) && (marks>65))  
+    {
+        printf("The Student qualifies for admission.\n");
+    }
+    else
+    {
+         printf("You do not qualify for admission.\n");
+    }
+    return 0;
+}
